@@ -27,3 +27,10 @@ return newObject;
 };
 
 // Objects destructivelyDeleteFromObjectByKey(object, key) returns object without the delete key/value pair:
+
+function destructivelyDeleteFromObjectByKey(obj, key) {
+
+delete obj[key];
+return obj;
+  
+};
